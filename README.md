@@ -1,11 +1,11 @@
-About r-geomtextpath
-====================
+About r-geomtextpath-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-geomtextpath-feedstock/blob/main/LICENSE.txt)
 
 Home: https://allancameron.github.io/geomtextpath/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-geomtextpath-feedstock/blob/main/LICENSE.txt)
 
 Summary: A 'ggplot2' extension that allows text to follow curved paths. Curved text makes it easier to directly label paths or neatly annotate in polar co-ordinates.
 
