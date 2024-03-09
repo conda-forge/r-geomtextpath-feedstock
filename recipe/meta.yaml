@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/geomtextpath_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/geomtextpath/geomtextpath_{{ version }}.tar.gz
-  sha256: e42fdf46128dfef128b6a31365916ffcf2b2e7d8021405cfcd73085bd10eb544
+  sha256: 6072c4e6fee200e9a865ce25f6146d94d6c7d800e173a7a12fe1c37af4ac9b1f
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
