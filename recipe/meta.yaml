@@ -1,4 +1,4 @@
-{% set version = "0.1.5" %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/geomtextpath_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/geomtextpath/geomtextpath_{{ version }}.tar.gz
-  sha256: e0afa0472f5abb5f4a0ebd587ba928953cd574434b1731f9fb92d66a763758dd
+  sha256: 065c197878a5c17d71e858606eccd260c711a7884e1f89c9cbdcbaba47baf3c0
 
 build:
   number: 0
